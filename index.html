@@ -2,49 +2,93 @@
 <html>
 
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Amy Duong - UX </title>
-
-		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Amy Duong - UX Designer</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	</head>
 
 	<body>
-		
 		<header>
-			<img src="img/icon.png" alt="icon">
-			<h1> Amy Duong - UI/UX Designer</h1>
-		</header>
+			<div class="mobile-show">
+				<h2> AMY DUONG </h2>
+				<h1> UX/UI DESIGNER </h1>
+				<a href="index.html"> <img id="icon" src="img/icon.png"> </a> 
+			</div>
 
-		<main> 
-			<h3>This website is currently under construction!</h3>
+			<nav class="mobile-show"> 
+				<ul>
+					<li> <a href="index.html" class="current"> HOME </a></li>
+					<li> <a href="#.html"> RESUME </a></li>
+					<li> <a href="#.html"> ABOUT </a></li>
+					<li> <a href="#.html"> CONTACT </a></li>
+				</ul>
+			</nav>
+
+			<nav class="mobile-hide"> 
+				<a href="#" id="menu-icon"> </a>
+				<ul>
+					<li> <a href="index.html" class="current"> HOME </a></li>
+					<li> <a href="resume.html"> RESUME </a></li>
+					<li> <a href="about.html"> ABOUT </a></li>
+					<li> <a href="contact.html"> CONTACT </a></li>
+				</ul>
+			</nav>
+		</header>
+		<!---End Header--->
+
+		<main>
+			<img id="heroimage" class="mobile-hide" src="img/heroimage.png">
+
+			<div id="resume-section" class="mobile-hide"> 
+				<img id="razer-img" src="img/razer.png">
+				<p> Currently a Junior UX/UI Designer at RAZER, and loving it. <br> My day-to-day includes working on improving the gamer's experience <br>with our RAZER Phone's Themestore app as well as tons of fun, collaborative meetings with my colleagues. 
+				<a href="resume.html"> <img id="resume-button" src="img/resume-button.png"> </a> 
+			</div>
 			
-			<p>
-			Hey there, thanks for stopping by!<br>
-			I’m currently building/developing my new website now, which is why you see this page.
-			
-			<br><br>
-			In the meantime, here are a few other ways you can connect with me:
-			</p> 
+			<h4 class="mobile-hide"> PORTFOLIO </h4>
+			<a href="#.html"> <img id="proj1-mobileimg" class="mobile-show" src="img/rp-image-mobile.png"> </a>
+			<a href="#.html"> <img id="proj1-desktopimg" class="mobile-hide" src="img/rp-image-desktop.png"> </a>
+			<a href="#.html"> <h2> RAZER PHONE </h2> </a>
+			<h1> Designing the first time user experience (FTUE) for Themestore </h1>
+
+			<div id="proj1-2border"> </div>
+			<a href="#.html"> <img id="proj2-mobileimg" class="mobile-show" src="img/twitch-image-mobile.png"> </a>
+			<a href="#.html"> <img id="proj2-desktopimg" class="mobile-hide" src="img/twitch-image-desktop.png"> </a>
+			<a href="#.html"> <h2> TWITCH </h2> </a>
+			<h1> Re-imagining the Twitch experience for Web </h1>
+
+			<section class="mobile-hide"> 
+				<img id="airplane" src="img/airplane.png">
+				<h2> GET IN TOUCH </h2>
+				<p> I'm always looking to meet new people and expand my design community and network. If you think we'd get along, let's connect! </p>
+
+				<div id="footer-social"> 
+					<a href="tel:5105006575"> <img src="img/icon-phone-footer.png" alt="phone icon"> </a>
+					<a href="mailto:amyduong@berkeley.edu"> <img src="img/icon-email.png" alt="email icon"> </a>
+					<a href="https://linkedin.com/in/amyduongux"> <img src="img/icon-linkedin.png" alt="linkedin icon"> </a>
+				</div>
+			</section>
 		</main>
 
-
 		<footer>
-			<div id="footer-social"> 
-				<a href="tel:5105006575">
-					<img src="img/icon-phone.png" alt="phone icon">
-				</a>
+			<div class="mobile-show"> 
+				<div class="footer-nav"> 
+					<a href="resume.html">Resume</a>
+					<a href="about.html">About</a>
+					<a href="contact.html">Contact</a>
+					<a href="index.html">Back to Top</a>
+				</div>
 
-				<a href="mailto:amyduong@berkeley.edu"> 
-					<img src="img/icon-mail.png" alt="email icon">
-				</a>
+				<div class="footer-social"> 
+					<a href="https://linkedin.com/in/amyduongux"> <img src="img/icon-linkedin.png" alt="LinkedIn icon"> </a>
 
-				<a href="https://linkedin.com/in/amyduongux">
-					<img src="img/icon-linkedin.png" alt="linkedin icon">
-				</a>
+					<a href="mailto:amyduong@berkeley.edu"> <img src="img/icon-email.png" alt="E-mail icon"> </a>
+					<p>© 2018 AMY DUONG</p>
+				</div>
 			</div>
-			<p>© 2018 by Amy Duong. All rights reserved.</p>
-		</footer> 
+		</footer>
 
 	</body>
 
