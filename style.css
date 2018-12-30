@@ -177,7 +177,7 @@ input, select {
 	}
 
 	header h2 {
-		font-family: 'Heitic SC', 'Heiti TC', sans-serif;
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
 		text-align: center;
 		font-size: 24px;
 		color: #542F8F;
@@ -185,7 +185,7 @@ input, select {
 	}
 
 	header h1 {
-		font-family: 'Heitic SC', 'Heiti TC', sans-serif;
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
 		text-align: center;
 		font-size: 16px;
 		color: #765BA1;
@@ -208,7 +208,7 @@ input, select {
 	nav ul li {
 		display: inline-block;
 		float: left;
-		font-family: 'Heitic SC', 'Heiti TC', sans-serif;
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
 		padding: 10px;
 		color: #2A2A2A;
 		font-weight: 800;
@@ -239,7 +239,7 @@ input, select {
 	main a h2 {
 		font-size: 32px;
 		text-align: center;
-		font-family: 'Heitic SC', 'Heiti TC', sans-serif;
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
 		display: block;
 		color: #3A3A3A;
 		padding: 20px 0 0 0;
@@ -446,7 +446,7 @@ input, select {
 		main a h2 {
 			font-size: 36px;
 			text-align: center;
-			font-family: 'Heitic SC', 'Heiti TC', sans-serif;
+			font-family: 'Heiti SC', 'Heiti TC', sans-serif;
 			display: block;
 			color: #3A3A3A;
 			padding: 20px 0 0 0;
