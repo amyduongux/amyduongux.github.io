@@ -147,7 +147,7 @@ input, select {
 	}
 
 	nav ul li a:hover {
-		color: red;
+		color: gray;
 	}
 
 }
