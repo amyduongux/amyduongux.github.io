@@ -620,6 +620,13 @@ input, select {
 			padding: 10px;
 		}
 
+		#download-resume-button {
+			display: block;
+			width: 300px;
+			height: 60px;
+			margin: 65px auto 10px auto;
+		}
+
 		footer .mobile-hide {
 			position: relative;
 			width: 100%;
