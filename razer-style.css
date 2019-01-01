@@ -1,0 +1,492 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MOBILE SITE */
+@media only screen and 
+	(max-width: 320px) {
+	.mobile-show {
+		display: block;
+	}
+
+	.mobile-hide {
+		display: none;
+	}
+
+	nav {
+		display: block;
+		margin: 0 auto;
+		width: fit-content;
+		height: fit-content;
+		font-size: 90%;
+		padding-top: 10px;
+		padding-bottom: 40px;
+	}
+
+	ul {
+		list-style-type: none;
+	}
+
+	nav ul li {
+		display: inline-block;
+		float: left;
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
+		font-size: 14px;
+		padding: 10px;
+		color: #2A2A2A;
+		font-weight: 800;
+		text-shadow: 0px 3px 4px #ABABAB;
+	}
+
+	nav ul li a {
+		color: #2A2A2A;
+		text-decoration: none;
+	}
+
+	.current {
+		color: #7544C2;
+	}
+
+	nav ul li a:hover {
+		color: gray;
+	}
+
+}
+
+@media only screen 
+	and (min-width: 320px)
+	and (max-width: 480px) {
+
+	.mobile-show {
+		display: block;
+	}
+
+	.mobile-hide {
+		display: none;
+	}
+
+	header {
+		width: 100%;
+		height: fit-content;
+	}
+
+	header a img {
+		width: 60px;
+		display: block;
+		margin: 0 auto;
+		padding: 20px 0 10px 0;
+	}
+
+	header h2 {
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
+		text-align: center;
+		font-size: 24px;
+		color: #542F8F;
+		padding-top: 40px;
+	}
+
+	header h1 {
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
+		text-align: center;
+		font-size: 16px;
+		color: #765BA1;
+	}
+
+	nav {
+		display: block;
+		margin: 0 auto;
+		width: fit-content;
+		height: fit-content;
+		font-size: 90%;
+		padding-top: 10px;
+		padding-bottom: 40px;
+	}
+
+	ul {
+		list-style-type: none;
+	}
+
+	nav ul li {
+		display: inline-block;
+		float: left;
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
+		padding: 10px;
+		color: #2A2A2A;
+		font-weight: 800;
+		text-shadow: 0px 3px 4px #ABABAB;
+	}
+
+	nav ul li a {
+		color: #2A2A2A;
+		text-decoration: none;
+	}
+
+	.current {
+		color: #7544C2;
+	}
+
+	nav ul li a:hover {
+		color: gray;
+	}
+
+	body {
+		font-family: 'Poppins', 'Roboto', sans-serif;
+		text-align: center;
+	}
+
+	main h3 {
+		font-family: 'Poppins', 'Roboto', sans-serif;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+		color: #383838;
+	}
+
+	main h2 {
+		font-size: 16px;
+		color: #7544C2;
+		margin: 5px 30px;
+		font-weight: 500;
+	}
+
+	main p {
+		font-size: 16px;
+		color: #575757;
+		text-align: left;
+		margin: 10px auto 40px auto;
+		line-height: 20px;
+		width: 80%;
+		display: block;
+	}
+
+	#img-main {
+		display: block;
+		margin: 15px auto 25px auto;
+		width: 50vw;
+	}
+
+	.process-imgs {
+		width: 75vw;
+		margin: 5px auto 20px auto;
+		display: block;
+	}
+
+	footer {
+		font-family: 'Heiti SC', 'Heiti TC', sans-serif;
+	    background-color: #38145D;
+	    width: 100vw;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 50px;
+	}
+
+	.footer-nav a {
+	    font-size: 14px;
+	    text-transform: uppercase;
+	    text-align: center;
+	    letter-spacing: 3px;
+	    padding: 25px 0;
+	    color: #fff;
+	    display: block;
+	    border-bottom: 0.25px solid #A7A7A7; 
+	    text-decoration: none;
+	}
+
+	.footer-social {
+	    display: block;
+	    margin: 0 auto;
+	    padding: 20px 0;
+	    width: fit-content;
+	}
+
+	.footer-social a {
+	    display: inline-block;
+	    margin: 0 auto;
+	}
+
+	.footer-social img {
+	    width: 40px;
+	    height: 40px;
+	    padding: 10px;
+	}
+
+	footer p {
+	    font-size: 12px;
+	    font-weight: 200;
+	    text-align: center;
+	    color: #fff;
+	    padding: 10px 0 25px 0;
+	}
+
+
+} /* END MOBILE CODE */
+
+
+
+/*  DESKTOP SITE  */ 
+@media only screen 
+	and (min-width: 750px) {		
+		.mobile-show {
+			display: none;
+		}
+
+		.mobile-hide {
+			display: block;
+		}
+
+		body {
+			font-family: 'Heiti SC', 'Heiti TC', sans-serif;
+			margin: 0;
+			line-height: 1;
+		}
+
+		header {
+			width: 100%;
+			height: fit-content;
+		}
+
+		#icon {
+			float: left;
+			margin: 20px;
+			width: 65px;
+			height: 65px;
+		}
+
+		header h2 {
+			color: #542F8F;
+			padding: 25px 0 5px 100px;
+		}
+
+		header h1 {
+			color: #765BA1;
+			font-size: 18px;
+			padding-left: 100px;
+		}
+
+		nav {
+			display: inline-block;
+			float: right;
+			margin: 20px 30px 0 0;
+			font-size: 75%;
+		}
+
+		ul {
+			list-style-type: none;
+		}
+
+		nav ul li {
+			display: inline-block;
+			float: left;
+			font-weight: 800;
+			text-shadow: 0px 2px 4px #ABABAB;
+			font-size: 100%;
+			padding: 10px;
+		}
+
+		nav ul li a {
+			color: #2A2A2A;
+			font-weight: lighter;
+			text-decoration: none;
+		}
+
+		nav ul li a:hover {
+			color: gray;
+		}
+
+		.current {
+			color: #7544C2;
+		}
+
+		main h3 {
+			font-family: 'Poppins', 'Roboto', sans-serif;
+			text-align: center;
+			font-size: 24px;
+			font-weight: 600;
+			color: #383838;
+		}
+
+		main h2 {
+			font-family: 'Poppins', 'Roboto', sans-serif;
+			text-align: center;
+			font-size: 20px;
+			color: #7544C2;
+			margin: 5px 30px;
+			font-weight: 500;
+			padding: 5px 0;
+		}
+
+		main p {
+			font-family: 'Poppins', 'Roboto', sans-serif;
+			font-size: 18px;
+			color: #575757;
+			text-align: left;
+			margin: 10px auto 40px auto;
+			line-height: 26px;
+			font-weight: 400;
+			width: 70%;
+			display: block;
+		}
+
+		#img-main {
+			display: block;
+			margin: 50px auto 30px auto;
+			width: 20vw;
+		}
+
+		.process-imgs {
+			width: 60vw;
+			margin: 5px auto 20px auto;
+			display: block;
+		}
+
+		footer .mobile-hide {
+			position: relative;
+			width: 100%;
+			display: block;
+			height: fit-content;
+			background-color: #38145D;
+			margin-top: 50px;
+			padding-bottom: 15px;
+		}
+
+		footer .mobile-hide p {
+			position: absolute;
+			font-size: 10px;
+			right: 20px;
+			bottom: 10px;
+			color: #fff;
+		}	
+
+		footer .mobile-hide h2 {
+			font-family: 'Poppins', 'Heiti SC', sans-serif;
+			text-align: center;
+			font-weight: 400;
+			font-size: 12px;
+			color: #fff;
+			padding: 20px 0 10px 0;
+		}
+
+		footer .mobile-hide h1 {
+			font-family: 'Poppins', 'Heiti SC', sans-serif;
+			text-align: center;
+			font-size: 10px;
+			font-weight: 300;
+			padding: 5px 0;
+			color: #fff;
+		}
+
+		footer #footer-social {
+			width: fit-content;
+			margin: 0 auto;
+		}
+
+		footer #footer-social a img {
+			width: 35px;
+			height: 35px;
+			padding: 5px;
+		}
+
+		footer a {
+			text-decoration: none;
+		}
+}
+
